@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
                         fontWeight: FontWeight.w500,
                       ),
                     ),
-                    hoverColor: Colors.blue.withOpacity(0.07),
+                    hoverColor: Colors.blue.withValues(alpha: 0.07),
                     onTap: () {
                       Navigator.pop(context);
                       Navigator.push(

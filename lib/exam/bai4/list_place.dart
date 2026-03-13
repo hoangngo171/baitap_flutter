@@ -71,6 +71,8 @@ class PlaceItem extends StatelessWidget {
                 borderRadius: const BorderRadius.only(
                   topLeft: Radius.circular(12),
                   bottomLeft: Radius.circular(12),
+                  topRight: Radius.circular(12),
+                  bottomRight: Radius.circular(12),
                 ),
                 child: Image.network(
                   imageUrl,
@@ -83,13 +85,13 @@ class PlaceItem extends StatelessWidget {
               // Badge trên ảnh
               if (highlight != null)
                 Positioned(
-                  top: 1,
-                  left: 2,
+                  top: 0.5,
+                  left: 0.5,
                   child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 17, vertical: 3),
+                    padding: const EdgeInsets.symmetric(horizontal: 19, vertical: 3),
                     decoration: BoxDecoration(
                       color: Colors.green,
-                      borderRadius: BorderRadius.circular(9),
+                      borderRadius: BorderRadius.circular(12),
                     ),
                     child: Text(
                       highlight!,

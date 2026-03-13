@@ -88,16 +88,18 @@
                       border: OutlineInputBorder(),
                     ),
                     validator: (v) {
-                      if (v == null || v.trim().isEmpty) {
-                        return 'Vui lòng nhập email!';
-                      }
-                      final email = v.trim();
-                      final ok = RegExp(
-                              r'^[\w\.\-]+@([\w\-]+\.)+[A-Za-z]{2,}$')
-                          .hasMatch(email);
-                      if (!ok) return 'Email không hợp lệ!';
-                      return null;
-                    },
+                    if (v == null || v.trim().isEmpty) {
+                      return 'Vui lòng nhập email!';
+                    }
+
+                    final email = v.trim();
+
+                    if (!email.endsWith("@gmail.com")) {
+                      return 'Email phải có dạng example@gmail.com';
+                    }
+
+                    return null;
+                  },
                   ),
                   const SizedBox(height: 14),
 

@@ -19,7 +19,7 @@ const List<Course> courses = [
     code: "2025-2026.1.TIN4583.001",
     student: 58,
     image:
-        "https://images.unsplash.com/photo-1501362343565-93d7318347cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUM0JTkxJUM2JUIwJUUxJUJCJTlEbmclMjBjaCVDMyVBMm4lMjB0ciVFMSVCQiU5RGl8ZW58MHx8MHx8fDA%3D",
+        "https://media.istockphoto.com/id/504263659/fr/photo/banque-internet-en-ligne.webp?a=1&b=1&s=612x612&w=0&k=20&c=bZtdjmNQbjgBtdMObBgikx-8byNkyPXyIdtJgliBCaA=",
   ),
   Course(
     title: "Lập trình ứng dụng cho các thiết bị di động - Nhóm 6",

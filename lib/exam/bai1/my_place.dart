@@ -111,13 +111,13 @@ class _MyPlaceState extends State<MyPlace> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Oeschinen Lake Campground",
+                  "Điện Kiến Trung",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 18),
                 ),
                 SizedBox(height: 8),
                 Text(
-                  "Kandersteg, Switzerland",
+                  "Hoàng thành Huế, Việt Nam",
                   style: TextStyle(color: Colors.grey, fontSize: 14),
                 ),
               ],
@@ -169,11 +169,15 @@ class _MyPlaceState extends State<MyPlace> {
 
   Widget block4() {
     const data =
-        "Nằm ở vùng Kandersteg (Thụy Sĩ), Oeschinen Lake nổi bật với mặt hồ xanh trong "
-        "được bao quanh bởi núi cao và rừng thông. Đây là điểm dã ngoại lý tưởng: bạn có thể "
-        "đi bộ đường mòn ngắm cảnh, chụp ảnh, hoặc thư giãn bên bờ hồ. Vào những ngày đẹp trời, "
-        "khung cảnh phản chiếu trên mặt nước rất ấn tượng — thích hợp cho một chuyến đi ngắn "
-        "để “đổi gió” và tận hưởng thiên nhiên.";
+            "Điện Kiến Trung là một công trình kiến trúc đặc biệt nằm trong Hoàng thành Huế, "
+            "được xây dựng vào đầu thế kỷ XX dưới triều vua Khải Định và hoàn thiện dưới "
+            "thời vua Bảo Đại. Công trình nổi bật với sự kết hợp độc đáo giữa kiến trúc "
+            "truyền thống cung đình Việt Nam và phong cách châu Âu hiện đại. Mặt tiền của "
+            "điện được trang trí cầu kỳ với nhiều họa tiết, phù điêu và hệ thống cửa sổ "
+            "màu đỏ đặc trưng. Đây từng là nơi sinh hoạt và làm việc của vua Bảo Đại – "
+            "vị hoàng đế cuối cùng của triều Nguyễn. Ngày nay, sau quá trình trùng tu, "
+            "Điện Kiến Trung trở thành một điểm tham quan nổi bật trong quần thể di tích "
+            "Cố đô Huế, thu hút đông đảo du khách đến tham quan và tìm hiểu lịch sử.";
 
     return const Padding(
       padding: EdgeInsets.all(20.0),
