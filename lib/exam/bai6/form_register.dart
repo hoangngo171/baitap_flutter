@@ -203,10 +203,6 @@
           behavior: SnackBarBehavior.floating,
         ),
       );
-
-      /*Future.delayed(const Duration(seconds: 1), () {
-      Navigator.pop(context);
-    });*/
     }
   }
 }
