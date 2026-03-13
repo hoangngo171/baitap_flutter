@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:baitap_flutter/exam/bai5/form_login.dart';
 
 class FormFeedback extends StatefulWidget {
   const FormFeedback({super.key});
@@ -128,6 +129,15 @@ class _FormFeedbackState extends State<FormFeedback> {
           behavior: SnackBarBehavior.floating,
         ),
       );
+
+      Future.delayed(const Duration(seconds: 1), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const FormLogin(),
+        ),
+      );
+    });
     }
   }
 }
