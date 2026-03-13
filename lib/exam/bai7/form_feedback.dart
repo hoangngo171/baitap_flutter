@@ -121,16 +121,17 @@ class _FormFeedbackState extends State<FormFeedback> {
     );
   }
 
-  void _submit() {
-    if (_formKey.currentState!.validate()) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text("Gửi phản hồi thành công!"),
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
+void _submit() {
+  if (_formKey.currentState!.validate()) {
 
-      Future.delayed(const Duration(seconds: 1), () {
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text("Gửi phản hồi thành công!"),
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
+
+    Future.delayed(const Duration(seconds: 1), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -138,6 +139,6 @@ class _FormFeedbackState extends State<FormFeedback> {
         ),
       );
     });
-    }
   }
+ }
 }
