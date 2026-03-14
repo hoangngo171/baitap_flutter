@@ -85,22 +85,26 @@ class PlaceItem extends StatelessWidget {
               // Badge trên ảnh
               if (highlight != null)
                 Positioned(
-                  top: 0.5,
-                  left: 0.5,
+                  top: 0,
+                  left: 0,
                   child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 19, vertical: 3),
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 3),
                     decoration: BoxDecoration(
                       color: Colors.green,
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Text(
                       highlight!,
-                      style: const TextStyle(color: Colors.white, fontSize: 13),
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 11,
+                        fontWeight: FontWeight.w500,
+                      ),
                     ),
                   ),
                 ),
-            ],
-          ),
+              ],
+            ),
 
           Expanded(
             child: Padding(

@@ -15,7 +15,7 @@ class MyProductState extends State<MyProduct> {
       name: 'Apple',
       unit: 'Kg',
       price: 20,
-      imageUrl: 'https://images.unsplash.com/photo-1630563451961-ac2ff27616ab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGV8ZW58MHx8MHx8fDA%3D',
+      imageUrl: 'https://images.unsplash.com/photo-1589217157232-464b505b197f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFwcGxlfGVufDB8fDB8fHww',
     ),
     Product(
       id: 2,
@@ -36,7 +36,7 @@ class MyProductState extends State<MyProduct> {
       name: 'Grapes',
       unit: 'Kg',
       price: 35,
-      imageUrl: 'https://images.unsplash.com/photo-1596363505729-4190a9506133?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGVzfGVufDB8fDB8fHww',
+      imageUrl: 'https://images.unsplash.com/photo-1515778767554-42d4b373f2b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyYXBlc3xlbnwwfHwwfHx8MA%3D%3D',
     ),
     Product(
       id: 5,
@@ -64,7 +64,7 @@ class MyProductState extends State<MyProduct> {
       name: 'Peach',
       unit: 'Kg',
       price: 18,
-      imageUrl: 'https://media.istockphoto.com/id/2242133634/fr/photo/p%C3%AAche-rose-avec-feuille-isol%C3%A9e-sur-fond-blanc-p%C3%AAche-blanche-japonaise-fra%C3%AEche-sur-fond-blanc.webp?a=1&b=1&s=612x612&w=0&k=20&c=bB-t16oUYx9lBy9WkQbo1k83VdW5nPG27HsR7G1EiFs=',
+      imageUrl: 'https://images.unsplash.com/photo-1532704868953-d85f24176d73?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVhY2h8ZW58MHx8MHx8fDA%3D',
     ),
   ];
 
@@ -104,9 +104,9 @@ class MyProductState extends State<MyProduct> {
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: Colors.blue.shade200,
-        borderRadius: BorderRadius.circular(10),
-        border: Border.all(color: Colors.black, width: 1),
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.black, width: 2),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
